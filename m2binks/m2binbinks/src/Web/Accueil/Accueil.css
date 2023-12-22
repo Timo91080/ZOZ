@@ -1,0 +1,14 @@
+
+.texaccueil {
+    display: flex;
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */ /* Pour occuper toute la hauteur de la page */
+}
+
+/* Styles pour l'élément contenant */
+.sport {
+    width: 99%; /* Largeur de l'élément contenant */
+    height: 98%; /* Hauteur de l'élément contenant (ajustez à votre besoin) */
+ 
+  }
+  

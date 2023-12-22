@@ -1,0 +1,45 @@
+const express = require('express');
+const mysql = require('mysql');
+const cors = require('cors');
+const { error } = require('console');
+
+const app = express()
+app.use(cors())
+
+const db = mysql.createConnection({
+        host: 'localhost',
+        user: 'root',
+        password: '',
+        database: 'm2lbinks',
+      });
+
+app.get('/', (re, res) =>{
+
+        return res.json("c'est le back")
+
+})
+
+app.get('/utilisateur', (req, res) =>{
+
+      const sql = "SELECT * FROM utilisateur";
+      db.query(sql, (err, data)=>{
+        if(err) return res.json(err);
+        return res.json(data);
+      })
+
+})
+
+
+app.get('/formation', (req, res) =>{
+
+        const sql = "SELECT * FROM formation";
+        db.query(sql, (err, data)=>{
+          if(err) return res.json(err);
+          return res.json(data);
+        })
+  
+  })
+  
+app.listen(8081,()=>{
+        console.log("chargement");
+})

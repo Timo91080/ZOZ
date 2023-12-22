@@ -1,0 +1,86 @@
+/* Ajoute ces styles dans ta nouvelle page CSS */
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #3498db, #87D37C);
+  }
+  
+  .card {
+    background: #fff;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #3498db;
+    padding: 8px 16px;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .card-header h5 {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .close-btn {
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .card-content {
+    padding: 24px;
+  }
+  
+  .label {
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .submit-btn {
+    background: #3498db;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background: #2185d0;
+  }
+  
+  .secondary-btn {
+    background: #e74c3c;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .secondary-btn:hover {
+    background: #c0392b;
+  }
+  

@@ -1,0 +1,7 @@
+.header {
+    /* Styles de votre barre de navigation */
+    background-image: url(".././Img/bck.jpg") ; /* Spécifiez le chemin de votre image */
+    background-size: 240vh; /* Pour couvrir complètement l'arrière-plan */
+    background-repeat: no-repeat;
+    /* Autres styles */
+  }

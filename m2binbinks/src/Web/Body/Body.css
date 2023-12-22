@@ -1,0 +1,40 @@
+.Corp{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    margin-top: -300px
+}
+
+.Corp h1{
+    
+    font-size: 3rem;
+    font-weight: 800;
+    background: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Condensed:wght@700&display=swap');
+
+.Corp p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+   
+    color: #fff;
+    padding: 0.5rem 0 2rem 0;
+    
+    
+}
+
+.Corp .show{
+    text-decoration: none;
+    background: #fff;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #222;
+
+}

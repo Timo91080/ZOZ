@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+.Navbar{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    box-shadow: 0 5px 15px 0 rgb(158, 240, 172);
+    width: 90%;
+    height: 80px;
+    border-radius: 13px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 38%;
+    
+}
+.navbar-logo{
+    color: #222;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.stylenav{
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-gap: 48px;
+    list-style: none;
+    align-items: center;
+    padding: -20px
+}
+
+.navnav{
+    text-decoration: none;
+    font-weight: 600rem;
+    color: #222;
+    font-size : 1.2rem;
+    padding: 5rem 1rem ;
+    white-space: nowrap;
+}
+
+.navnav li{
+    padding-right: 10px;
+}
+
+.stylenav li:hover{
+    background-color: #01959a;
+    color: #fff;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out
+}
+
+button{
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    box-shadow: 0 5px 15px 0 rgb(158, 240, 172 );
+    cursor: pointer;
+    
+    transition: 0.2s ease-in-out;
+}
+button:hover{
+    background-color: rgb(158, 240, 172 );
+    color: #000;
+}
